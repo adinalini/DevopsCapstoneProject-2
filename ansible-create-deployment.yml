@@ -5,7 +5,7 @@
 
  
   tasks: 
-  - name: create a deployment
+  - name: create deployment
     command: kubectl apply -f deployment.yml
  
   - name: update deployment with new pods if image updated in docker hub
