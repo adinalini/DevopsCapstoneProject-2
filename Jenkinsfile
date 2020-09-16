@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     stages {
-        stage('Build&Push image') { 
+        stage('Build & Push image') { 
             steps { 
                 sh 'make build' 
             }
