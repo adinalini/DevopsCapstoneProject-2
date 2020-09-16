@@ -1,12 +1,12 @@
-# Capstone-Project
+# Udacity Devops Capstone Project
 
-## This is the final project of my Udacity Cloud Engineering Nanodegree Program
+## Final project to graduate from the cloud devops engineer nanodegree
 
-### Application Properties
+### Project App Properties
 
   Deployment Type - Rolling Deployment
   
-  Applicaiton - Nginx with customized index.html file
+  Application - Nginx with customized index.html file
 
 ## TECHNOLOGIES USED
 
@@ -14,13 +14,13 @@
 - ANSIBLE
 - KOPS (Kubernetes Operations)
 - DOCKER
-
-### DOCKER
-
-  Docker is used to create the latest image from the Dockerfile inside the Github repo
   
-  The latest image is then pushed to Docker hub.
-  
+  ### Learning
+ 
+ I ran into a little too many errors during this project, not the most fun but I definitely learnt a lot from this project. I tried making a project with Blue/Green deployment before this one ![Repo](https://github.com/adinalini/DevopsCapstoneProject), but couldn't resolve the errors there, so finally tried out the rolling deployment and it worked! Can't wait to try out my skills in a real world project.
+
+## Tech Stack explanation
+
 ### Jenkins Stages
    
    Build - Build docker image and update the latest version of docker image on docker hub
@@ -47,31 +47,6 @@
  Cluster named capstone.in is created which is connected to s3 storage s3://capstone.project.
  
  
- ## STEPS TO MAKE A SIMILAR PROJECT 
+ ## Sample working image       
  
- ### 1. Clone the repository
- 
- ```
- git clone https://github.com/rajas2716/Capstone-Project
- ```
- 
- ### 2. Create 2 instances on cloud 
- 
- > First instance will be used as a control-server for controlling the client machines
- 
- > Second instance will control all the cluster nodes and get commands from the control-server
- 
- ### 3. Follow the steps in Source-Code
- 
-      1. Complete [configure-ansible.txt](https://github.com/rajas2716/Capstone-Project/blob/master/Source-Code/configure-ansible.txt)
-      
-      2. Complete [configure-jenkins.txt](https://github.com/rajas2716/Capstone-Project/blob/master/Source-Code/configure-jenkins.txt)
-      
-      3. Complete [create-cluster.txt](https://github.com/rajas2716/Capstone-Project/blob/master/Source-Code/create-cluster.txt)
-      
-      4. Complete [ansible-commands.txt](https://github.com/rajas2716/Capstone-Project/blob/master/Source-Code/ansible-commands.txt)
- 
- 
- ## Sample image of my application working        
- 
- ![Application-functioning](https://github.com/rajas2716/Capstone-Project/blob/master/Application-Version-2.PNG)
+ ![Application-functioning](link goes here)
