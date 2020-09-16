@@ -8,5 +8,5 @@
     command: ./docker-bench-security.sh
 
   - name: remove docker images form ansible server
-    command: docker rmi capstone:latest rajas2716/capstone
+    command: docker rmi capstone:latest adinalini/capstone
     ignore_errors: yes
