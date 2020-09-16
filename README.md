@@ -15,9 +15,9 @@
 - KOPS (Kubernetes Operations)
 - DOCKER
   
-  ### Learning
+### Learning
  
- I ran into a little too many errors during this project, not the most fun but I definitely learnt a lot from this project. I tried making a project with Blue/Green deployment before this one [Repo](https://github.com/adinalini/DevopsCapstoneProject), but couldn't resolve the errors there, so finally tried out the rolling deployment and it worked! Can't wait to try out my skills in a real world project.
+I ran into a little too many errors during this project, not the most fun but I definitely learnt a lot from this project. I tried making a project with Blue/Green deployment before this one [Repo](https://github.com/adinalini/DevopsCapstoneProject), but couldn't resolve the errors there, so finally tried out the rolling deployment and it worked! Can't wait to try out my skills in a real world project.
 
 ## Tech Stack explanation
 
