@@ -46,7 +46,7 @@ I ran into a little too many errors during this project, not the most fun but I 
  
  Cluster named capstone.in is created which is connected to s3 storage s3://capstone.project.
  
-### EDIT: I missed some screenshots during submission of this project, but since I had deleted the resources, I went ahead and completed my former project: [Repo](https://github.com/adinalini/DevopsCapstoneProject)
+#### EDIT: I missed some screenshots during submission of this project, but since I had deleted the resources, I went ahead and completed my former project: [Repo](https://github.com/adinalini/DevopsCapstoneProject)
  
  ## Sample working image       
  
